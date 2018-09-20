@@ -1,0 +1,10 @@
+[03-May-2018 22:39:10 UTC] PHP Parse error:  syntax error, unexpected 'require' (T_REQUIRE) in /home/qingsheh/public_html/final_project/header.php on line 2
+[03-May-2018 22:39:17 UTC] PHP Parse error:  syntax error, unexpected 'require' (T_REQUIRE) in /home/qingsheh/public_html/final_project/header.php on line 2
+[04-May-2018 05:06:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/qingsheh/public_html/final_project/addBook.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/qingsheh/public_html/final_project/addBook.php on line 50
+[04-May-2018 05:06:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/qingsheh/public_html/final_project/addBook.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/qingsheh/public_html/final_project/addBook.php on line 50

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>testRank</title>
+	 <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+        <!--Import Google Icon Font-->
+  	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  	<!--Import materialize.css-->
+  	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+  	<link rel="stylesheet" type="text/css" href="css/skeleton.css">
+  	<link href="https://fonts.googleapis.com/css?family=Gamja+Flower|Shrikhand|Skranji" rel="stylesheet">
+  	<link href="https://fonts.googleapis.com/css?family=Skranji" rel="stylesheet">
+
+  	<style type="text/css">
+
+  		#content{
+  			margin-top: 130px;
+  		}
+  		#hDiv{
+  			font-family: 'Skranji', cursive;
+  			font-size: 35px;
+  			color: #455a64;
+  		}
+  		@media(min-width: 768px){
+  			#content{
+  				margin-top: 160px;
+  			}
+  		}
+  		@media(min-width: 992px){
+  			#content{
+  				margin-top: 130px;
+  			}
+  		}
+  		#school{
+  			z-index: 999;
+  		}
+  		.addBtn{
+  			background-color: red;
+  		}
+  	</style>
+
+</head>
+<body>
+	<div id="mainContainer">
+		<div id="header-div">
+			<div id="logo">BookHub, create your repo!!!</div> 
+			<div class="nav-wrapper">
+			  <form>
+			    <div class="input-field">
+			      <input id="search" type="search" required>
+			      <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+			      <i class="material-icons">close</i>
+			    </div>
+			  </form>
+			</div>
+
+			<div id="right-corner-btn">
+				<a class="waves-effect waves-darken-3 btn left-top-btn" style="display: none;">My Repository</a>
+				<a class="waves-effect waves-light btn right-top-btn" style="display: none;">Log out</a>
+				
+				<a class="waves-effect waves-darken-3 btn left-top-btn" style="display: inline-block;">Sign Up</a>
+				<a class="waves-effect waves-light btn right-top-btn" style="display: inline-block;">Login</a>
+			</div>
+
+			
+		</div>
+
+
+		<div id="content">
+			<div>
+				<div id="hDiv">Favorite Books of USC</div>
+				<!-- <div class="single-field" id="school"> -->
+				  	<div class="input-field col s12" id="school">
+					    <select name="school">
+					      <option value="0" disabled selected>Choose your school</option>
+					      <option value="1">USC</option>
+					      <option value="2">UCLA</option>
+					      <option value="3">UCB</option>
+					      <option value="3">UCSD</option>
+					    </select>
+					    <label>School</label>
+					</div>
+				<!-- </div> -->
+			</div>
+			<div class="clear"></div>
+
+			<div class="card">
+				<div class="card-image waves-effect waves-block waves-light">
+				  <img class="activator thumbnail" src="sample1.jpg">
+				</div>
+				<div class="card-content">
+
+		          <a class="btn-floating halfway-fab waves-effect wave-sblue-grey btn addBtn"><i class="material-icons">cancel</i></a>
+				  <p>Game of Thrones <br> by George R.R Martin</p>
+				</div>
+				<div class="card-reveal">
+				  <span class="card-title grey-text text-darken-4">
+				  	<i class="material-icons right">close</i>
+				  	Card Title
+				  </span>
+				  <p>Here is some more information about this product that is only revealed once clicked on.</p>
+				</div>
+			</div>
+
+
+			
+			<div class="card">
+				<div class="card-image waves-effect waves-block waves-light">
+				  <img class="activator thumbnail" src="sample1.jpg">
+				</div>
+				<div class="card-content">
+
+		          <a class="btn-floating halfway-fab waves-effect wave-sblue-grey btn addBtn"><i class="material-icons">add</i></a>
+				  <p>Game of Thrones <br> by George R.R Martin</p>
+				</div>
+				<div class="card-reveal">
+				  <span class="card-title grey-text text-darken-4">
+				  	<i class="material-icons right">close</i>
+				  	Card Title
+				  </span>
+				  <p>Here is some more information about this product that is only revealed once clicked on.</p>
+				</div>
+			</div>
+
+			
+			<div class="card">
+				<div class="card-image waves-effect waves-block waves-light">
+				  <img class="activator thumbnail" src="sample1.jpg">
+				</div>
+				<div class="card-content">
+
+		          <a class="btn-floating halfway-fab waves-effect wave-sblue-grey btn addBtn"><i class="material-icons">add</i></a>
+				  <p>Game of Thrones <br> by George R.R Martin</p>
+				</div>
+				<div class="card-reveal">
+				  <span class="card-title grey-text text-darken-4">
+				  	<i class="material-icons right">close</i>
+				  	Card Title
+				  </span>
+				  <p>Here is some more information about this product that is only revealed once clicked on.</p>
+				</div>
+			</div>
+			
+			<div class="card">
+				<div class="card-image waves-effect waves-block waves-light">
+				  <img class="activator thumbnail" src="sample1.jpg">
+				</div>
+				<div class="card-content">
+
+		          <a class="btn-floating halfway-fab waves-effect wave-sblue-grey btn addBtn"><i class="material-icons">add</i></a>
+				  <p>Game of Thrones <br> by George R.R Martin</p>
+				</div>
+				<div class="card-reveal">
+				  <span class="card-title grey-text text-darken-4">
+				  	<i class="material-icons right">close</i>
+				  	Card Title
+				  </span>
+				  <p>Here is some more information about this product that is only revealed once clicked on.</p>
+				</div>
+			</div>
+			
+			<div class="card">
+				<div class="card-image waves-effect waves-block waves-light">
+				  <img class="activator thumbnail" src="sample1.jpg">
+				</div>
+				<div class="card-content">
+
+		          <a class="btn-floating halfway-fab waves-effect wave-sblue-grey btn addBtn"><i class="material-icons">add</i></a>
+				  <p>Game of Thrones <br> by George R.R Martin</p>
+				</div>
+				<div class="card-reveal">
+				  <span class="card-title grey-text text-darken-4">
+				  	<i class="material-icons right">close</i>
+				  	Card Title
+				  </span>
+				  <p>Here is some more information about this product that is only revealed once clicked on.</p>
+				</div>
+			</div>
+			
+			<div class="card">
+				<div class="card-image waves-effect waves-block waves-light">
+				  <img class="activator thumbnail" src="sample1.jpg">
+				</div>
+				<div class="card-content">
+
+		          <a class="btn-floating halfway-fab waves-effect wave-sblue-grey btn addBtn"><i class="material-icons">add</i></a>
+				  <p>Game of Thrones <br> by George R.R Martin</p>
+				</div>
+				<div class="card-reveal">
+				  <span class="card-title grey-text text-darken-4">
+				  	<i class="material-icons right">close</i>
+				  	Card Title
+				  </span>
+				  <p>Here is some more information about this product that is only revealed once clicked on.</p>
+				</div>
+			</div>
+			
+			<div class="card">
+				<div class="card-image waves-effect waves-block waves-light">
+				  <img class="activator thumbnail" src="sample1.jpg">
+				</div>
+				<div class="card-content">
+
+		          <a class="btn-floating halfway-fab waves-effect wave-sblue-grey btn addBtn"><i class="material-icons">add</i></a>
+				  <p>Game of Thrones <br> by George R.R Martin</p>
+				</div>
+				<div class="card-reveal">
+				  <span class="card-title grey-text text-darken-4">
+				  	<i class="material-icons right">close</i>
+				  	Card Title
+				  </span>
+				  <p>Here is some more information about this product that is only revealed once clicked on.</p>
+				</div>
+			</div>
+		</div>
+	</div>	
+
+
+	<script type="text/javascript">
+				var options = document.querySelectorAll('option');
+				var elem = document.querySelector('select');
+		  		var instance = M.FormSelect.init(elem, options);
+			
+				var radios = document.querySelectorAll(".school");
+
+				for(var i=0; i<radios.length; i++){
+
+					radios[i].onclick = function(){
+						// alert("display popular books in " + this.id);
+						var cards = document.querySelectorAll(".card");
+
+						for(var i=0; i<cards.length; i++){
+							cards[i].setAttribute("style", "display: none;");
+							console.log(cards[i].classList);
+							if(cards[i].classList.contains(this.id)){
+								cards[i].setAttribute("style", "display: block;");
+							}
+						}
+					}
+
+
+					// console.log(radios[i].id);
+				}
+			</script>
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Qingshen Huang</title>
+	<style type="text/css">
+		.center{
+			text-align: center;
+		}
+		img{
+			width: 400px;
+		}
+		#mainContainer{
+			width: 1050px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.btn{
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+	<!-- bookRepo -->
+	<div id="mainContainer">
+		<h2 class="center">Project Summary</h2>
+		<h4 class="center">Qingshen Huang</h4>
+		<p>
+			<strong>1. Topic: &nbsp;</strong>My website allows students to search books they are interested in or they like and add books to their own book repositories. By collecting book information of users, we find out the favorite books of students from different schools.
+		<p>
+			<strong>2. How it works: </strong><br>
+			<strong>-Header: &nbsp;</strong>The header on each page contains a search box, and two buttons. When the user is logged in, the two buttons are <font class="btn">USERNAME'S REPO</font> and <font class="btn">COLLEGE TASTE</font>, otherwise they will be <font class="btn">SIGN UP</font> and <font class="btn">LOG IN</font> buttons.<br>
+			<strong>-Search: &nbsp;</strong> Both guest users and registered users can search books using keywords. Clicking each book cover is will display the description of the book. If the user has logged in, clicking the book button at the bottom of each book block will add this book to your own repository, otherwise it will alert you to log in first<br>
+
+			<strong>-Sign up: &nbsp;</strong>Clicking the <font class="btn">SIGN UP</font> button in the header will direct you to the sign-up page. Your first name, last name, username, school and password are all required. After signing up, the user will be directed to log in page<br>
+			<strong>-Log in: &nbsp;</strong>Clicking the <font class="btn">LOG IN</font> button in the header will direct you to the sign-up page. Username and password are required for logging in. Users will be directed to index page after logging in<br>
+			<strong>-Personal repository (log in required): &nbsp;</strong>Users can view and delete books on the repository page.<br>
+			<strong>-College taste (log in required): &nbsp;</strong>Books liked by students from different schools will show here. The dropdown list on the left allow the users to choose which school's favorite books to display.<br>
+			<strong>-Edit information(log in required): &nbsp;</strong>Clicking <font class="btn">EDIT/VIEW PROFILE</font> on repository page will direct users to a new page, on which users can view and edit their personal information <br>
+			<strong>-Log out (log in required): </strong>Clicking <font class="btn">LOG OUT</font> on repository page will destroy the session for current user and direct the users to index page
+		</p>
+		<p>
+			<strong>3. Data source and storage: &nbsp;</strong><br>
+			<strong>Book data</strong> come from Google Books API. When a user adds a book to their repositories, the image links, titles, authors and descriptions of books will be stored into database with the userID which associated with the user table<br>
+			<strong>User data</strong> come from the users when they sign up on the site. Each user's first name, last name, username, school and password will be stored in the database<br>
+			<strong>School data</strong> are prefilled and now have four universities in California
+		</p>
+		<p>
+			<strong>4. Extras: &nbsp;</strong><br>
+			<strong>1). &nbsp;</strong>Session is used on this project to maintain the status of users. Guest users can only search and browse books, but registered uses can have their own repositories of books and view favorite books of different school<br>
+			<strong>2). &nbsp;</strong>Google Books API is used to get book information when users search by key words. Link: <a href="https://developers.google.com/books/">https://developers.google.com/books/</a><br>
+			<strong>3). &nbsp;</strong>Ajax is used to perform adding and deleting functionalities to enhance user experience<br>
+			<strong>4). &nbsp;</strong>Materialize is used for front end decorations and layout Link: <a href="https://materializecss.com/">https://materializecss.com/</a><br> 
+			<strong>5). &nbsp;</strong>The CSS and JavaScript libraries provided by Materialize are used to create animations such as sliding effect on book covers and wave effects on buttons<br>
+		</p>
+		<p>
+			<strong>5. Database Diagram: </strong><br>
+			<img src="database.PNG">
+		</p>
+	</div>
+</body>
+</html>

@@ -1,0 +1,136 @@
+body{
+		background: url("../imgs/book4.jpg")  no-repeat center center fixed;
+		background-size: cover;
+		/*padding: 10px;*/
+	}
+	#mainContainer{
+		width: 95%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#content{
+		/*margin-top: 20px;*/
+		margin-left: auto;
+		margin-right: auto;
+		overflow: visible;
+		width: 500px;
+		margin-top: 200px;
+		/*background-color: pink;*/
+	}
+	.clear{
+		clear: both;
+	}
+
+
+	.left-top-btn{
+		width: 60%;
+		background-color: #8d6e63;
+	}
+	.right-top-btn{
+		width: 38%;
+		background-color: #a1887f;
+	}
+
+#header-div{
+	width: 95%;
+	height: 90px;
+	position: fixed;
+	z-index: 100;
+	top: 10px;/*
+	right: 5px;
+	left: 5px;*/
+}
+#logo{
+	/*font-family: 'Shrikhand', cursive;*/
+	font-family: 'Skranji', cursive;
+
+	color: #6d4c41  ;
+	text-align: center;
+	/*font-weight: bold;*/
+	font-size: 20px;
+	background: rgba(255, 255, 255, .6);
+	border-radius: 8px;
+
+}
+.btn:hover{
+	background-color: #78909c;
+}
+.input-field{
+	background-color: #6d4c41;
+	opacity: 0.7;
+	border-radius: 3px;
+}
+
+.card{
+	width: 200px;
+	height: 400px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px; 
+	background-color: #455a64;
+}
+.thumbnail{
+	width: 100px;
+	height: 300px;
+}
+.addBtn{
+	background-color: #607d8b;
+}
+.card-content{
+	background-color: #8d6e63;
+}
+.notLogin{
+	color: red;
+	font-family: 'Skranji', cursive;
+ 	font-size: 30px;
+}
+/*medium desktop 678 - 991px*/
+@media(min-width: 768px){
+	body{	
+			/*opacity: 0.6;*/
+	}
+	#logo{
+		font-size: 37px;
+	}
+	#content{
+		width: 750px;
+		margin-top: 150px;
+	}
+
+}
+
+@media(min-width: 992px){
+	#content{
+		width: 1000px;
+		margin-top: 150px;
+		/*background-color: green;*/
+	}
+	#logo{
+		font-size: 45px;
+		/*background-color: white;*/
+		/*opacity: 0.5;*/
+	}
+	.input-field{
+		width: 300px;
+		float: left;
+	}
+	.left-top-btn{
+		width: 200px;
+		background-color: #8d6e63;
+	}
+	.right-top-btn{
+		width: 150px;
+		background-color: #a1887f;
+	}
+	#right-corner-btn{
+		float: left;
+		margin-top: 12px;
+		margin-left: 100px;
+	}
+	.nav-wrapper{
+		width: 300px;
+		margin-left: 200px;
+		background-color: red;
+	}
+}
